@@ -14,7 +14,7 @@
 1. 从[@BotFather](https://t.me/BotFather)获取token，并且可以发送`/setjoingroups`来禁止此Bot被添加到群组
 2. 从[uuidgenerator](https://www.uuidgenerator.net/)获取一个随机uuid作为secret
 3. 从[@username_to_id_bot](https://t.me/username_to_id_bot)获取你的用户id
-4. 登录[cloudflare](https://workers.cloudflare.com/)，创建一个worker
+4. 登录[cloudflare](https://workers.cloudflare.com/)，创建一个worker[worker代码](./worker.js)
 5. 配置worker的变量
     - 增加一个`BOT_TOKEN`变量，数值为从步骤1中获得的token
     - 增加一个`BOT_SECRET`变量，数值为从步骤2中获得的secret
